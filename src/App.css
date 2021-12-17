@@ -1,0 +1,109 @@
+.App {
+}
+.login-form-container {
+  width: 60%;
+  margin: auto;
+}
+.login-form-container--email {
+  display: flex;
+  margin-top: 20px;
+}
+.login-form-container--password {
+  display: flex;
+  margin-top: 20px;
+}
+.login-form-container--checkbox {
+  display: flex;
+  margin-top: 20px;
+}
+
+.label-style {
+  flex: 0 1 30%;
+  text-align: right;
+  align-self: center;
+}
+.input-style {
+  margin-left: 30px;
+  flex: 1;
+  border: none;
+  background-color: aliceblue;
+  height: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
+.check-box {
+  margin-left: 30px;
+}
+
+.signUp-btn {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  float: right;
+  background: repeating-linear-gradient(45deg, black, transparent 100px);
+  color: whitesmoke;
+  margin: 20px auto auto auto;
+  cursor: pointer;
+}
+
+.signUp-heading {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0px;
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  border: 1px solid black;
+}
+.dropDown-field {
+  float: right;
+}
+
+.delete-btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.table-name-field {
+  text-align: center;
+}
+
+.item-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.item-container-heading {
+  text-align: center;
+}
+.all-btn-style {
+  border: none;
+  background: repeating-linear-gradient(45deg, blue, transparent 90%);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.add-item-btn {
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(31, 124, 31),
+    transparent 100px
+  );
+  cursor: pointer;
+}
+
+.Add-item-btn-box {
+  margin-top: 20px;
+}
